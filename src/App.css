@@ -1,3 +1,21 @@
+
+
+
+
+
+button{
+
+  background-color: #61dafb;
+  padding: 1rem;
+  margin: 20px;
+  display: flex;
+  border-radius: 20%;
+
+}
+body{
+  background-color:gray;
+}
+
 .App {
   text-align: center;
 }
@@ -12,16 +30,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  margin: auto 30px;
   align-items: center;
   justify-content: center;
+  align-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -35,4 +51,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App {
+  text-align: center;
+  align-content:space-around;
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
